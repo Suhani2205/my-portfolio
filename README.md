@@ -29,35 +29,6 @@ A modern, responsive portfolio built with **Next.js**, **TypeScript**, **Tailwin
 
 ---
 
-## 📁 Project Structure
-
-```
-/components
-  /Hero.tsx
-  /About.tsx
-  /RecentProjects.tsx
-  /Responsibilities.tsx
-  /Education.tsx
-  /Skills.tsx
-  /Footer.tsx
-  /ui/
-    /resizeable-navbar/
-    /sparkles.tsx
-    /BackgroundEffect.tsx
-    /TextGenerateEffect.tsx
-
-/pages
-  /index.tsx
-
-/public
-  /logo.png   # Your site logo
-
-/data
-  navItems.ts  # Navigation links
-```
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the repo
@@ -87,20 +58,6 @@ Visit `http://localhost:3000` to see your portfolio in action.
 
 ---
 
-## 🧾 .gitignore
-
-```gitignore
-node_modules/
-.next/
-out/
-.env
-dist/
-build/
-*.log
-.DS_Store
-```
-
----
 
 
 > Designed & developed by **Suhani Gupta**[GitHub](https://github.com/Suhani2205)
