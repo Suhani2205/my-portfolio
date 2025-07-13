@@ -39,7 +39,7 @@ export const projects: Project[] = [
     id: 2,
     title: "E-Commerce Website",
     des: "Implemented product grids, navigation bar, and layout components resembling an E-Commerce Website.",
-    img: "/blog.png",
+    img: "/amazon.png",
     iconLists: ["/icons/react.svg", "/icons/prisma.svg", "/icons/postgresql.svg"],
     link: "https://github.com/Suhani2205/Project-Amazon_clone"
   },
