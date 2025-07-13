@@ -28,7 +28,7 @@ export const projects: Project[] = [
     liveLink: "https://my-itinerary-generator.vercel.app/"
   },
   {
-    id: 1,
+    id: 2,
     title: "Multiple Disease Prediction Chatbot Using Machine Learning",
     des: "Predicts heart disease, diabetes, PCOS, malaria using symptoms or diagnostic inputs from users.",
     img: "/streamlit3.png",
@@ -36,7 +36,7 @@ export const projects: Project[] = [
 
   },
   {
-    id: 2,
+    id: 3,
     title: "E-Commerce Website",
     des: "Implemented product grids, navigation bar, and layout components resembling an E-Commerce Website.",
     img: "/amazon.png",
@@ -44,11 +44,13 @@ export const projects: Project[] = [
     link: "https://github.com/Suhani2205/Project-Amazon_clone"
   },
   {
-    id: 3,
+    id: 4,
     title: "Portfolio Website",
     des: "Personal portfolio website built with Next.js, TailwindCSS, and Aceternity UI for a sleek, responsive design.",
     img: "/portfolio.png",
-    iconLists: ["/icons/nextjs.svg", "/icons/tailwindcss.svg", "/icons/aceternity.svg"]
+    iconLists: ["/icons/nextjs.svg", "/icons/tailwindcss.svg", "/icons/aceternity.svg"],
+    link: "https://github.com/Suhani2205/my-portfolio",
+    liveLink: "https://my-portfolio-blue-one-80.vercel.app/"
   }
 ];
 
