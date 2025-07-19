@@ -15,7 +15,7 @@ const About = () => {
       showFloatingIcons={true}
       className="min-h-screen flex flex-col justify-center items-center relative overflow-hidden"
     >
-    <div id="about" className=" min-h-screen py-20 px-4">
+    <div id="about" className=" min-h-screen py-20 px-4 items-center justify-center">
       <div className="max-w-4xl mx-auto">
         
         {/* Section Header */}
@@ -41,7 +41,7 @@ const About = () => {
         >
           {/* Introduction */}
           <div className="mb-8">
-            <p className="text-lg text-white">
+            <p className="text-lg text-white ">
               I&apos;m <span className="font-semibold">Suhani Gupta</span>, a passionate Software Developer currently pursuing a B.Tech in <span className="text-purple-400">Electronics and Communication Engineering</span> at The LNM Institute of Information Technology (LNMIIT).
               With strong foundations in Data Structures, Algorithms, and full-stack web development, I specialize in building scalable, user-focused applications powered by intelligent systems. My interests lie at the intersection of software engineering and real-world problem-solving.
             </p>

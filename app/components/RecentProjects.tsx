@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { BackgroundGradient } from "./ui/background-gradient";
 import { HoverBorderGradient } from "./ui/InfiniteMovingCards";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import { SparklesCore } from "./ui/sparkles";
+// import { SparklesCore } from "./ui/sparkles";
 // import { cn } from "@/app/utils/cn";
 import BackgroundEffect from "./ui/BackgroundEffect";
 // Define the shape of a project

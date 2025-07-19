@@ -109,13 +109,13 @@ const Footer = () => {
               ))}
             </div>
 
-            <a href="mailto:gupta5suhani9@gmail.com">
+            {/* <a href="mailto:gupta5suhani9@gmail.com">
               <MagicButton
                 title="Let's get in touch"
                 icon={<FaLocationArrow />}
                 position="right"
               />
-            </a>
+            </a> */}
 
             {/* Social media and copyright section */}
             <div className="flex mt-16 flex-col justify-between items-center">
@@ -123,7 +123,7 @@ const Footer = () => {
                 Copyright © 2025 Suhani Gupta. All rights reserved.
               </p>
 
-              <div className="flex items-center gap-4 mt-6">
+              {/* <div className="flex items-center gap-4 mt-6">
                 {socialMedia.map((profile) => (
                   <div
                     key={profile.id}
@@ -139,11 +139,11 @@ const Footer = () => {
                     />
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
 
             {/* Bottom navigation */}
-            <div className="mt-12 flex gap-6 text-sm text-white-200/60">
+            {/* <div className="mt-12 flex gap-6 text-sm text-white-200/60">
               <a href="/" className="hover:text-purple transition-colors">
                 Home
               </a>
@@ -162,7 +162,7 @@ const Footer = () => {
               >
                 Contact
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
