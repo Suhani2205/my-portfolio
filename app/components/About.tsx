@@ -24,8 +24,14 @@ const About = () => {
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 1 }}
                     viewport={{ once: true }}
-                    className="text-center mb-20 bg-black/70 backdrop-blur-sm"
+                    className="text-center mb-20 bg-black/70 backdrop-blur-sm "
                   >
+              <div className="h-px w-12 bg-gradient-to-r from-transparent to-purple-400 mr-3"></div>
+              <h2 className="text-sm uppercase tracking-widest text-purple-400 font-semibold">
+                Myself
+              </h2>
+              <div className="h-px w-12 bg-gradient-to-l from-transparent to-purple-400 ml-3"></div>
+            
             
                     <h3 className="text-5xl md:text-6xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-200 to-pink-200">
                       About Me
@@ -37,7 +43,7 @@ const About = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="border border-gray-800 rounded-2xl p-8 bg-black/70 backdrop-blur-sm"
+          className="border border-gray-800 rounded-2xl p-8 bg-black/70 backdrop-blur-sm text-center"
         >
           {/* Introduction */}
           <div className="mb-8">

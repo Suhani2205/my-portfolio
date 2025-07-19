@@ -230,22 +230,42 @@ export const MobileNavToggle = ({
   );
 };
 
+// export const NavbarLogo = () => {
+//   return (
+//     <a
+//       href="#"
+//       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
+//     >
+//       {/* <img
+//         src={Ks.src}
+//         alt="logo"
+//         width={80}
+//         height={80}
+//       /> */}
+//       <span className="font-bold text-xl text-black  dark:text-white">SG</span>
+//     </a>
+//   );
+// };
+
+import Image from "next/image";
+
 export const NavbarLogo = () => {
   return (
     <a
       href="#"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
-      {/* <img
-        src={Ks.src}
+      <Image
+        src="/logoSuhani.jpg" 
         alt="logo"
-        width={80}
-        height={80}
-      /> */}
-      <span className="font-bold text-xl text-black  dark:text-white">SG</span>
+        width={40}
+        height={40}
+        className="rounded-full" 
+      />
     </a>
   );
 };
+
 
 export const NavbarButton = ({
   href,

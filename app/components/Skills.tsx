@@ -160,7 +160,7 @@ const Skills = () => {
           >
             <div className="flex items-center justify-center mb-3">
               <div className="h-px w-12 bg-gradient-to-r from-transparent to-purple-400 mr-3"></div>
-              {/* <h2 className="text-sm uppercase tracking-widest text-purple-400 font-semibold">Core Expertise</h2> */}
+              <h2 className="text-sm uppercase tracking-widest text-purple-400 font-semibold">Core Expertise</h2>
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-purple-400 ml-3"></div>
             </div>
             <h3 className="text-5xl md:text-6xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-200 to-pink-200">

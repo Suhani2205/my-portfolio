@@ -27,13 +27,14 @@ const Education = () => {
   return (
     <div id="education" className="py-24 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
       <div className="text-center mb-14">
-        {/* <h2 className="text-sm uppercase tracking-widest text-purple-400 font-semibold mb-2">Academics</h2> */}
+        <h2 className="text-sm uppercase tracking-widest text-purple-400 font-semibold mb-2">My Academics</h2>
         <h3 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-200 to-pink-200">
           Education
         </h3>
       </div>
 
-      <div className="space-y-10 items-center">
+      {/* <div className="space-y-10 items-center"> */}
+      <div className="flex flex-col items-center space-y-10">
         {educationData.map((edu, index) => (
           <motion.div
             key={index}

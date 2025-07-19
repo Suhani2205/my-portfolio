@@ -68,7 +68,13 @@ const Footer = () => {
           {/* Purple accent line */}
 
           
-          
+          <div className="flex items-center justify-center mb-3">
+              <div className="h-px w-12 bg-gradient-to-r from-transparent to-purple-400 mr-3"></div>
+              <h2 className="text-sm uppercase tracking-widest text-purple-400 font-semibold">
+                My details
+              </h2>
+              <div className="h-px w-12 bg-gradient-to-l from-transparent to-purple-400 ml-3"></div>
+            </div>
           <div className="flex flex-col justify-center items-center">
           <h3 className="text-5xl md:text-6xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-200 to-pink-200">
             Contact Me

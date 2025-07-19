@@ -69,7 +69,7 @@ const Responsibilities = () => {
         showSparkles={true}
         className="py-28 relative overflow-hidden"
       >
-        <div className="relative z-10 ">
+        <div className="relative z-10 flex flex-col items-center">
           <div className="text-center mb-20">
             <div className="flex items-center justify-center mb-3">
               <div className="h-px w-12 bg-gradient-to-r from-transparent to-purple-400 mr-3"></div>
