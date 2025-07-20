@@ -138,6 +138,12 @@ export interface Technology {
   name: string;
 }
 
+export interface SkillCardProps {
+  category: string;
+  skills: Technology[];
+  index: number;
+}
+
 export interface SkillCategory {
   id: number;
   category: string;

@@ -8,3 +8,4 @@ build/
 .DS_Store
 coverage/
 lib/
+app/data/confetti.json

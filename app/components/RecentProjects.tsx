@@ -1,6 +1,7 @@
 "use client";
 
-import { projects } from "@/data";
+import { projects, Project } from "@/data";
+
 import React, { useState } from "react";
 import { FaLocationArrow, FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -11,15 +12,6 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 // import { cn } from "@/app/utils/cn";
 import BackgroundEffect from "./ui/BackgroundEffect";
 // Define the shape of a project
-interface Project {
-  id: number;
-  title: string;
-  des: string;
-  img: string;
-  iconLists: string[];
-  link: string;
-  liveLink?: string;
-}
 
 const RecentProjects: React.FC = () => {
   const [activeProject, setActiveProject] = useState<number | null>(null);
@@ -92,18 +84,7 @@ const RecentProjects: React.FC = () => {
 
                     {/* Content Area */}
                     <div className="p-6 flex-1 flex flex-col">
-                      {/* Technologies Icons */}
-                      {/* <div className="flex mb-4">
-                        {project.iconLists.map((icon: string, idx: number) => (
-                          <div
-                            key={idx}
-                            className="border border-white/[0.1] rounded-full bg-black/80 backdrop-blur-sm w-9 h-9 flex justify-center items-center"
-                            style={{ transform: `translateX(-${idx * 8}px)` }}
-                          >
-                            <img src={icon} alt="technology" className="p-2" />
-                          </div>
-                        ))}
-                      </div> */}
+          
 
                       {/* Project Title */}
                       <h3 className="font-bold text-2xl mb-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-300 to-blue-300">

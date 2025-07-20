@@ -5,13 +5,7 @@ import { motion } from 'framer-motion';
 import BackgroundEffect from './ui/BackgroundEffect';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import { SparklesCore } from './ui/sparkles';
-import { skills, SkillCategory, Technology } from "@/data";
-
-interface SkillCardProps {
-  category: string;
-  skills: Technology[];
-  index: number;
-}
+import { skills, SkillCategory, Technology, SkillCardProps } from "@/data";
 
 const SkillCard = ({ category, skills, index }: SkillCardProps) => {
   const [isHovered, setIsHovered] = useState(false);

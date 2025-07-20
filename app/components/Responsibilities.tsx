@@ -6,7 +6,8 @@ import BackgroundEffect from "./ui/BackgroundEffect";
 
 import { responsibilities, Responsibility } from "@/data";
 
-const ResponsibilityCard = ({ role, org, duration, details, index }: any) => {
+const ResponsibilityCard = ({ role, org, duration, details, index }: Responsibility & { index: number }) => {
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
