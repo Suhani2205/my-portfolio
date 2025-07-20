@@ -7,21 +7,15 @@ import {
   FaGithub,
   FaLinkedin,
   FaCode,
-  FaBehance,
   FaLaptopCode,
 } from "react-icons/fa";
 import {
   SiReact,
   SiNextdotjs,
   SiTypescript,
-  SiJavascript,
   SiTailwindcss,
-  SiNodedotjs,
   SiExpress,
-  SiOpenai,
-  SiMongodb,
   SiPostgresql,
-  SiFirebase,
 } from "react-icons/si";
 import { TypewriterEffect } from "./ui/TypewriterEffect";
 // import { TextGenerateEffect } from "./ui/TextGenerateEffect";
