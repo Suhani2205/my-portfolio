@@ -4,35 +4,7 @@ import { motion } from "framer-motion";
 // import { SparklesCore } from "./ui/sparkles";
 import BackgroundEffect from "./ui/BackgroundEffect";
 
-const responsibilities = [
-  {
-    role: "Teaching Assistant, Data Structures and Algorithms Lab",
-    org: "LNMIIT",
-    duration: "Jan 2025 – Apr 2025",
-    details: [
-      "Assisted lab sessions for 80 students in core Data Structures course.",
-      "Covered topics: Linked Lists, Stacks, Queues, Trees, Heaps, Graphs."
-    ],
-  },
-  {
-    role: "Organizer, TEDxLNMIIT'25",
-    org: "LNMIIT",
-    duration: "Mar 2024 – Jan 2025",
-    details: [
-      "Coordinated end-to-end execution of TEDxLNMIIT 2025 event.",
-      "Led sponsorship, logistics, speaker curation. Worked with 40+ volunteers."
-    ],
-  },
-  {
-    role: "Coordinator, Media Cell LNMIIT",
-    org: "LNMIIT",
-    duration: "Mar 2024 – Mar 2025",
-    details: [
-      "Managed communications, social media strategy, and event promotion.",
-      "Led 60+ volunteers handling media coverage for campus events."
-    ],
-  },
-];
+import { responsibilities, Responsibility } from "@/data";
 
 const ResponsibilityCard = ({ role, org, duration, details, index }: any) => {
   return (

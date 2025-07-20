@@ -129,46 +129,10 @@ const Footer = () => {
                 Copyright © 2025 Suhani Gupta. All rights reserved.
               </p>
 
-              {/* <div className="flex items-center gap-4 mt-6">
-                {socialMedia.map((profile) => (
-                  <div
-                    key={profile.id}
-                    className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg bg-black-200/70 rounded-lg border border-black-300 hover:border-purple/50 hover:scale-110 transition-all duration-300"
-                    onClick={() => handleSocialMediaClick(profile.url)}
-                  >
-                    <img
-                      src={profile.img}
-                      alt={`Social media icon ${profile.id}`}
-                      width={20}
-                      height={20}
-                      className="opacity-75 hover:opacity-100 transition-opacity"
-                    />
-                  </div>
-                ))}
-              </div> */}
+              
             </div>
 
-            {/* Bottom navigation */}
-            {/* <div className="mt-12 flex gap-6 text-sm text-white-200/60">
-              <a href="/" className="hover:text-purple transition-colors">
-                Home
-              </a>
-              <a href="#about" className="hover:text-purple transition-colors">
-                About
-              </a>
-              <a
-                href="#projects"
-                className="hover:text-purple transition-colors"
-              >
-                Projects
-              </a>
-              <a
-                href="/#contact"
-                className="hover:text-purple transition-colors"
-              >
-                Contact
-              </a>
-            </div> */}
+            
           </div>
         </div>
       </footer>

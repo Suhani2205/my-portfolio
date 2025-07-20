@@ -69,3 +69,148 @@ export const socialMedia = [
     
   },
 ];
+
+// Education Section Data
+export interface EducationItem {
+  institution: string;
+  degree: string;
+  year: string;
+}
+
+export const educationData: EducationItem[] = [
+  {
+    institution: "The LNM Institute of Information Technology, Jaipur",
+    degree: "B.Tech in Electronics and Communication Engineering",
+    year: "2022 – 2026",
+  },
+  {
+    institution: "Cambridge Court High School, Jaipur",
+    degree: "Class XII – CBSE",
+    year: "2021 – 2022",
+  },
+  {
+    institution: "Cambridge Court High School, Jaipur",
+    degree: "Class X – CBSE",
+    year: "2019 – 2020",
+  },
+];
+
+// Responsibilities Section Data
+export interface Responsibility {
+  role: string;
+  org: string;
+  duration: string;
+  details: string[];
+}
+
+export const responsibilities: Responsibility[] = [
+  {
+    role: "Teaching Assistant, Data Structures and Algorithms Lab",
+    org: "LNMIIT",
+    duration: "Jan 2025 – Apr 2025",
+    details: [
+      "Assisted lab sessions for 80 students in core Data Structures course.",
+      "Covered topics: Linked Lists, Stacks, Queues, Trees, Heaps, Graphs."
+    ],
+  },
+  {
+    role: "Organizer, TEDxLNMIIT'25",
+    org: "LNMIIT",
+    duration: "Mar 2024 – Jan 2025",
+    details: [
+      "Coordinated end-to-end execution of TEDxLNMIIT 2025 event.",
+      "Led sponsorship, logistics, speaker curation. Worked with 40+ volunteers."
+    ],
+  },
+  {
+    role: "Coordinator, Media Cell LNMIIT",
+    org: "LNMIIT",
+    duration: "Mar 2024 – Mar 2025",
+    details: [
+      "Managed communications, social media strategy, and event promotion.",
+      "Led 60+ volunteers handling media coverage for campus events."
+    ],
+  },
+];
+
+// Skills Section Data
+export interface Technology {
+  name: string;
+}
+
+export interface SkillCategory {
+  id: number;
+  category: string;
+  technologies: Technology[];
+}
+
+export const skills: SkillCategory[] = [
+  {
+    id: 1,
+    category: "Programming Languages",
+    technologies: [
+      { name: "C++" },
+      { name: "C" },
+      { name: "MySQL" },
+    ]
+  },
+  {
+    id: 2,
+    category: "Frontend Development",
+    technologies: [
+      { name: "HTML" },
+      { name: "CSS" },
+      { name: "TailwindCSS" },
+      { name: "ShadCN" },
+      { name: "Aceternity UI" },
+      { name: "React.js" },
+      { name: "API Integration" }
+    ]
+  },
+  {
+    id: 3,
+    category: "Backend & Database",
+    technologies: [
+      { name: "Node.js" },
+      { name: "Express.js" },
+      { name: "MongoDB" },
+      { name: "HTTP Server" },
+      { name: "Firebase" }
+    ]
+  },
+  {
+    id: 4,
+    category: "Frameworks & Tools",
+    technologies: [
+      { name: "Git" },
+      { name: "GitHub" },
+      { name: "Streamlit" },
+      { name: "Jupyter" },
+      { name: "PyCharm" }
+    ]
+  },
+  {
+    id: 5,
+    category: "ML & Data Science",
+    technologies: [
+      { name: "TensorFlow" },
+      { name: "PyTorch" },
+      { name: "Scikit-learn" },
+      { name: "NumPy" },
+      { name: "Pandas" },
+      { name: "Matplotlib" },
+      { name: "Seaborn" }
+    ]
+  },
+  {
+    id: 6,
+    category: "Computer Science Fundamentals",
+    technologies: [
+      { name: "DSA" },
+      { name: "DBMS" },
+      { name: "OOPs" },
+      { name: "CNs" },
+      { name: "OS" }
+    ]
+  }
+];

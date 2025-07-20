@@ -1,27 +1,10 @@
 "use client";
 
 import React from "react";
-// other imports
 
 import { motion } from 'framer-motion';
+import { educationData, EducationItem } from "@/data";
 
-const educationData = [
-  {
-    institution: "The LNM Institute of Information Technology, Jaipur",
-    degree: "B.Tech in Electronics and Communication Engineering",
-    year: "2022 – 2026",
-  },
-  {
-    institution: "Cambridge Court High School, Jaipur",
-    degree: "Class XII – CBSE",
-    year: "2021 – 2022",
-  },
-  {
-    institution: "Cambridge Court High School, Jaipur",
-    degree: "Class X – CBSE",
-    year: "2019 – 2020",
-  },
-];
 
 const Education = () => {
   return (
