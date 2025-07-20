@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import MagicButton from "./ui/MagicButton";
+// import MagicButton from "./ui/MagicButton";
 import {
   FaLocationArrow,
   FaEnvelope,
@@ -8,7 +8,7 @@ import {
   FaGithub,
   FaPhone,
 } from "react-icons/fa";
-import { socialMedia } from "@/data";
+// import { socialMedia } from "@/data";
 import BackgroundEffect from "./ui/BackgroundEffect";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 

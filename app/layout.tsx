@@ -7,7 +7,12 @@ import { NavbarDemo } from "@/components/NavbarDemo";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Suhani's Portfolio"
+  title: "Suhani's Portfolio",
+  description: "Portfolio of Suhani Gupta",
+  keywords: ["Next.js", "React", "Suhani", "Portfolio"],
+  icons: {
+    icon: "/logoSuhani.jpg", 
+  },
 };
 
 export default function RootLayout({
