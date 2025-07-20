@@ -9,3 +9,4 @@ build/
 coverage/
 lib/
 app/data/confetti.json
+extra-ui-components
