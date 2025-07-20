@@ -12,7 +12,7 @@ A sleek, modern, and fully responsive personal portfolio built with **Next.js 13
 - 💼 Dynamic project cards with GitHub and Live Demo links
 - 🎓 Interactive Education, Skills, and Responsibilities sections
 - 🧠 Configurable via clean, separated data files
-- ✨ Custom effects like 3D cards, sparkles, and gradients
+- ✨ Custom effects like 3D cards, sparkles, and gradients.
 
 ---
 
